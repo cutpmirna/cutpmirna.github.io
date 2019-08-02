@@ -1,0 +1,105 @@
+/*start body*/
+body {
+    
+    background-color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font: 16px;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+    color :rgb(26, 24, 24);
+    
+}
+/*start body*/
+/*start debug*/
+.bg-blue {
+    background-color: rgb(209, 164, 105);
+}
+.bg-red {
+    background-color: rgb(88, 6, 6);
+}
+/*end debug*/
+/*start container*/
+.container {
+    margin: 10px auto;
+    overflow: auto;
+    width: 90%;
+}
+.container-full{
+    margin: 10px auto;
+    overflow: auto;
+    width: 100%;
+}
+/*end container*/
+/*start logo*/
+.logo{
+    text-align: center;
+}
+/*end logo*/
+/* start menu primer */
+.menu-primer ul{
+    background-color: azure;
+    border-radius: 4px;
+    box-shadow: 
+     0 3px 5px -1px lightgray,
+     0 6px 10px 0 lightgray,
+     0 1px 18px 0 lightgray
+    }
+.menu-primer li {
+    border-right: 1px solid grey;
+    display: inline-block;
+
+}
+,.menu-primer a{
+    color: aliceblue;
+    font-size: 13px;
+    padding: 10px 1px;
+    text-transform: uppercase;
+
+}
+
+.menu-primer a:hover {
+    background-color: antiquewhite;
+    color: black;
+}
+/* end menu primer */
+/* start main */
+.main-home-one {
+    float: left;
+    width: 49.5%;
+}
+.main-home-two {
+    float:right;
+    width: 49.5%;
+}
+/* box heading*/
+.box-heading {
+    background-color: brown;
+    border: 1px solid seagreen;
+    border-radius: 3px 3px 0;
+    margin: 1;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.box-heading{
+    font: 14px;
+    margin: 0;
+}
+.box-isi{
+    background-color: cadetblue;
+    border: 1px solid seagreen;
+    border-top: 0;
+    margin: 0;
+    padding: 10px 20px;
+    text-transform: uppercase
+}
+.main-home-one .box-isi,
+.main-home-two .box-isi
+{
+    height: 150px ;
+}
+
+/*menu skunder*/
+
+/* end main */
+
